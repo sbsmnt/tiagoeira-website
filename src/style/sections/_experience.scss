@@ -1,0 +1,155 @@
+#experience {
+    background-color: $white-color;
+    color: $dark-blue-text;
+    margin-top: -15rem;
+    padding-top: 15rem;
+
+    @include respond(tab-land) {
+        margin-top: 0;
+        padding-top: 5rem;
+    }
+
+    .exp-wrapper {
+        margin-bottom: 15rem;
+
+        @include respond(phone) {
+            margin-bottom: 0rem;
+        }
+        
+        
+
+        .row {
+            margin-bottom: 8rem;
+
+            @include respond(phone) {
+                margin-bottom: 4rem;
+            }
+        }
+
+        .timeline {
+            &:nth-child(even) {
+                margin-top: 30%;
+            }
+
+            &:nth-child(odd) {
+                // margin-bottom: 20%;
+
+                &::after {
+                    display: block;
+                    content: "";
+                    width: 4px;
+                    height: 100%;
+                    position: absolute;
+                    background: linear-gradient(153deg, $primary-color 0%, $secondary-color 40%, $secondary-color 60%, $primary-color 100%);
+                    left: calc(100% - 3px);
+                    top: 0;
+                    @include respond(phone) {
+                        display: none;
+                    }
+
+                }
+            }
+        }
+
+        &__text {
+            text-align: left;
+            margin-top: 5%;
+
+            @include respond(phone) {
+                margin-bottom: 2.5rem !important;
+            }
+            @include respond(tab-land) {
+                margin-bottom: 4.8rem;
+            }
+
+            &-title {
+                font-weight: bold;
+                margin-bottom: 1.8rem;
+                font-size: $mid-font-size;
+
+                @include respond(phone) {
+                    font-size: 2rem;
+                }
+            }
+
+            & p > a {
+                color: $secondary-color;
+            }
+
+            & .tech-stack {
+                .tech-chip {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    display: inline-flex;
+                    background: #fff;
+                    box-shadow: -3px 3px 12px -5px #cecece, 3px -4px 10px #f8f8f8;
+                    border-radius: 7px;
+                    padding: 5px;
+                    margin: 3px;
+    
+                    & :first-child {
+                        margin-left: 0;
+                    }
+                    & :last-child {
+                        margin-right: 0;
+                    }
+                }
+
+                & :first-child {
+                    margin-left: 0;
+                }
+                & :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            
+            
+            & ul {
+                list-style: none;
+                margin-bottom: 10px;
+                padding: 0;
+
+                li {
+                    font-size: 1.2rem;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        &__image {
+            width: 60%;
+            margin: 0 auto;
+
+            @include respond(tab-land) {
+                width: 100%;
+                margin: 0;
+            }
+
+            & .thumbnail {
+                height: 120px;
+                padding: 10px 5px;
+                border: none;
+                background-color: #cecece;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+                transition: all 0.2s ease-out;
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+                transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s box-shadow,
+                0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+                @include respond(phone) {
+                    border: 1px solid #d2d2d2;
+                    box-shadow: none;
+                    margin-bottom: 3.2rem;
+                }
+
+                img {
+                    vertical-align: middle;
+                    margin: auto;
+                    height: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

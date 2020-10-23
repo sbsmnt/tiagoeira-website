@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="32px" viewBox="0 0 150 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_kcsit_invert</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-/-White" transform="translate(-70.000000, -24.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Header">
+                <g id="logo_kcsit_invert" transform="translate(70.000000, 24.000000)">
+                    <g id="Group">
+                        <polygon id="Shape" points="9.01 30.82 0 30.82 0 20.53 9.01 11.91"></polygon>
+                        <polygon id="Shape" points="9.01 10.82 0 19.44 0 0.64 9.01 0.64"></polygon>
+                        <polygon id="Shape" points="33.07 30.77 20.36 30.77 11.65 22.06 11.73 9.94"></polygon>
+                        <polygon id="Shape" points="33.36 0.7 18.47 15.6 11.99 9.08 20.59 0.7"></polygon>
+                    </g>
+                    <path d="M75.85,26.56 C72.82,29.59 69.17,31.1 64.91,31.1 C60.64,31.1 57,29.59 53.99,26.58 C50.97,23.56 49.47,19.92 49.47,15.66 C49.47,11.4 50.98,7.75 53.99,4.74 C57.01,1.72 60.65,0.22 64.91,0.22 C69.18,0.22 72.82,1.72 75.85,4.72 L70.38,10.19 C68.85,8.69 67.03,7.94 64.91,7.94 C62.76,7.94 60.94,8.69 59.44,10.19 C57.94,11.69 57.19,13.52 57.19,15.66 C57.19,17.78 57.94,19.59 59.44,21.11 C60.94,22.63 62.76,23.38 64.91,23.38 C67.03,23.38 68.85,22.61 70.38,21.08 L75.85,26.56 Z" id="Shape"></path>
+                    <path d="M117.2,16.53 C118.33,18.15 118.89,19.72 118.89,21.25 C118.89,24.11 117.87,26.41 115.84,28.17 C113.81,29.93 111,30.81 107.43,30.81 C102.53,30.81 98.42,29.44 95.1,26.7 L99.86,21.03 C102.34,22.5 104.71,23.24 106.96,23.24 C108.14,23.24 109.17,23.1 110.03,22.83 C110.9,22.56 111.33,22.06 111.33,21.34 C111.33,20.71 110.74,20.23 109.56,19.91 L103.33,18.31 C101.28,17.91 99.58,16.93 98.23,15.39 C96.87,13.85 96.2,11.92 96.2,9.62 C96.2,7.28 97.24,5.19 99.34,3.33 C101.43,1.47 103.99,0.54 107.02,0.54 C111.75,0.54 115.73,1.75 118.96,4.17 L114.16,9.79 C112.11,8.67 110.09,8.1 108.1,8.1 C106.48,8.1 105.36,8.29 104.73,8.66 C104.1,9.04 103.78,9.48 103.78,10 C103.78,10.6 104.14,11.02 104.86,11.25 L111.56,12.89 C114.19,13.7 116.08,14.91 117.2,16.53 Z" id="Shape"></path>
+                    <g id="Group" transform="translate(39.000000, 2.000000)">
+                        <path d="M0.82,0.19 L0.82,26.35" id="Shape"></path>
+                        <rect id="Rectangle-path" x="0.35" y="0.19" width="1" height="26.15"></rect>
+                    </g>
+                    <g id="Group" transform="translate(85.000000, 2.000000)">
+                        <path d="M0.48,0.19 L0.48,26.35" id="Shape"></path>
+                        <rect id="Rectangle-path" x="0.01" y="0.19" width="1" height="26.15"></rect>
+                    </g>
+                    <g id="Group" transform="translate(129.000000, 14.000000)">
+                        <g>
+                            <polygon id="Shape" points="4.9 0.91 4.9 16.61 0.97 16.61 0.97 0.91"></polygon>
+                            <polyline id="Shape" points="14.26 7.57 14.26 16.61 10.33 16.61 10.33 0.91 14.26 0.91 14.26 4.24"></polyline>
+                            <rect id="Rectangle-path" x="7.31" y="0.91" width="9.76" height="4.01"></rect>
+                        </g>
+                        <rect id="Rectangle-path" x="17.07" y="12.68" width="3.93" height="3.93"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
