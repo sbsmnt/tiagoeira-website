@@ -64,16 +64,16 @@ export const experienceData = [
     title: 'Quinta Digital',
     time: 'March 2015 - February 2016',
     techStack: [
+      { id: nanoid(), name: 'JavaScript' },
       { id: nanoid(), name: 'PHP' },
-      { id: nanoid(), name: 'JS' },
       { id: nanoid(), name: 'MySQL' },
       { id: nanoid(), name: 'CSS' },
-      { id: nanoid(), name: 'Wordpress' },
     ],
     description: [
-      { id: nanoid(), name: 'Landing Pages development.' },
+      { id: nanoid(), name: 'Website development and responsive design optimisation.' },
+      { id: nanoid(), name: 'Javascript features Development.' },
       { id: nanoid(), name: 'Database optimization' },
-      { id: nanoid(), name: 'Wordpress plugin development and theme customisation' },
+      { id: nanoid(), name: 'Wordpress plugin development and theme customisation.' },
     ],
     url: '',
   },
@@ -84,18 +84,17 @@ export const experienceData = [
     time: 'February 2016 - August 2016',
     techStack: [
       { id: nanoid(), name: 'PHP' },
-      { id: nanoid(), name: 'JS' },
+      { id: nanoid(), name: 'JavaScript' },
       { id: nanoid(), name: 'MySQL' },
       { id: nanoid(), name: 'CSS' },
       { id: nanoid(), name: 'CodeIgniter' },
       { id: nanoid(), name: 'Laravel' },
-      { id: nanoid(), name: 'Wordpress' },
     ],
     description: [
-      { id: nanoid(), name: 'Wordpress plugin development and theme customisation.' },
+      { id: nanoid(), name: 'Website development and responsive design updates.' },
       { id: nanoid(), name: 'Database optimization.' },
-      { id: nanoid(), name: 'Landing Page development with tracking codes.' },
       { id: nanoid(), name: 'Website solutions with custom CMS' },
+      { id: nanoid(), name: 'Wordpress plugin development and theme customisation.' },
     ],
     url: '',
   },
@@ -106,7 +105,7 @@ export const experienceData = [
     time: 'August 2016 - September 2017',
     techStack: [
       { id: nanoid(), name: 'PHP' },
-      { id: nanoid(), name: 'JS' },
+      { id: nanoid(), name: 'JavaScript' },
       { id: nanoid(), name: 'MySQL' },
       { id: nanoid(), name: 'CSS' },
       { id: nanoid(), name: 'CodeIgniter' },
@@ -115,8 +114,8 @@ export const experienceData = [
       { id: nanoid(), name: 'Ionic' },
     ],
     description: [
-      { id: nanoid(), name: 'Website solutions with custom CMS Back Office integration' },
-      { id: nanoid(), name: 'API integrations' },
+      { id: nanoid(), name: 'Custom CMS development focused on simple UI so clients could easily update their websites;' },
+      { id: nanoid(), name: 'REST API integrations' },
       { id: nanoid(), name: 'Web App development for eCommerce - Remarketing tools' },
     ],
     url: '',
@@ -128,22 +127,21 @@ export const experienceData = [
     time: 'September 2017 - September 2018',
     techStack: [
       { id: nanoid(), name: 'PHP' },
-      { id: nanoid(), name: 'JS' },
+      { id: nanoid(), name: 'JavaScript' },
+      { id: nanoid(), name: 'React' },
       { id: nanoid(), name: 'MySQL' },
       { id: nanoid(), name: 'CSS' },
-      { id: nanoid(), name: 'Wordpress' },
       { id: nanoid(), name: 'REST API' },
-      { id: nanoid(), name: 'eCommerce' },
     ],
     description: [
+      { id: nanoid(), name: 'React web app for internal project management' },
+      { id: nanoid(), name: 'Website development focused on speed performance and user UI' },
       { id: nanoid(), name: 'Wordpress Plugin development and theme customisation.' },
       {
         id: nanoid(),
         name:
-          'Custom payment system integration on eCommerce websites (Woocommerce, Opencart, Magento)',
+          'Payment system integration on eCommerce websites (Woocommerce, Opencart, Magento)',
       },
-      { id: nanoid(), name: 'Tracking codes intallation( GTM, Facebook Pixel)' },
-      { id: nanoid(), name: 'Linux server management and maintenance' },
     ],
     url: '',
   },
@@ -154,10 +152,10 @@ export const experienceData = [
     time: 'October 2018 - August 2019',
     techStack: [
       { id: nanoid(), name: 'PHP' },
-      { id: nanoid(), name: 'JS' },
+      { id: nanoid(), name: 'JavaScript' },
+      { id: nanoid(), name: 'React' },
       { id: nanoid(), name: 'MySQL' },
       { id: nanoid(), name: 'CSS' },
-      { id: nanoid(), name: 'React' },
       { id: nanoid(), name: 'REST API' },
       { id: nanoid(), name: 'GCP' },
     ],
@@ -165,7 +163,7 @@ export const experienceData = [
       {
         id: nanoid(),
         name:
-          'Ticketing system development for a private hospital’s customer care center with API integration on React JS Web App.',
+          'Ticketing system development for a private hospital’s customer care center with REST API integration for React Web App.',
       },
       {
         id: nanoid(),
@@ -174,11 +172,11 @@ export const experienceData = [
       {
         id: nanoid(),
         name:
-          'Client meetings to make sure all the requirements were fulfilled and keep improving the system',
+          'Project Management with client meetings to make sure all the requirements were fulfilled and keep improving the system',
       },
       {
         id: nanoid(),
-        name: 'Google Cloud Platform VM maintenance (performance, resource management)',
+        name: 'Google Cloud Platform maintenance (performance, resource management)',
       },
     ],
     url: '',
@@ -192,7 +190,6 @@ export const experienceData = [
       { id: nanoid(), name: 'JS' },
       { id: nanoid(), name: 'React' },
       { id: nanoid(), name: 'NodeJS' },
-      { id: nanoid(), name: 'GraphQL' },
       { id: nanoid(), name: 'PHP' },
       { id: nanoid(), name: 'MySQL' },
       { id: nanoid(), name: 'REST API' },
@@ -201,14 +198,14 @@ export const experienceData = [
       { id: nanoid(), name: 'AWS' },
     ],
     description: [
-      { id: nanoid(), name: 'Android and IOS Native Mobile App new features development.' },
       {
         id: nanoid(),
-        name: 'React Web App for Customer Care and Commercial teams affiliates program management.',
+        name: 'React JS web app for Customer Care and Commercial teams affiliates program management. Time saved on getting reports and focus on the partners that needed to improve sales.',
       },
-      { id: nanoid(), name: 'Wordpress Plugins development.' },
+      { id: nanoid(), name: 'Mobile App development. Frequent occurring bugs solved and improved user engagement.' },
+      
       { id: nanoid(), name: 'Online Appointment schedule system.' },
-      { id: nanoid(), name: 'Landing Pages for Marketing performance campaings.' },
+      { id: nanoid(), name: 'Performance and UI optimisation of websites.' },
     ],
     url: '',
   },
@@ -231,14 +228,14 @@ export const footerData = {
     // },
     // {
     //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
-    // {
-    //   id: nanoid(),
     //   name: 'linkedin',
     //   url: '',
     // },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/sbsmnt',
+    },
     {
       id: nanoid(),
       name: 'bitbucket',
